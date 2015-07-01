@@ -1,2 +1,2 @@
 # dawn
-Norway web site
+黑夜散去，「黎明」到來！
