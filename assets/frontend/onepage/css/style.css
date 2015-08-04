@@ -5,7 +5,10 @@ body {
   font: 300 14px/1.4 "Open Sans", Arial, sans-serif;
   background: #fff;
 }
-
+body:after {
+content: url(./img/benefit1.png) url(./img/benefit2.png) url(./img/benefit3.png) url(./img/benefit4.png) url(./img/benefit5.png) url(./img/benefit6.png) url(./img/benefit7.png);
+display: none;
+}
 /* h1-h6 */
 .content h1, .content h2 {
   font: 400 37px "PT Sans Narrow", Arial, sans-serif;
