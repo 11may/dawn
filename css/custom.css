@@ -1,7 +1,7 @@
 /* here you can put your own css to customize and override the theme */
 /*picture preload*/
 body:after {
-content: url(./img/benefit1.png) url(./img/benefit2.png) url(./img/benefit3.png) url(./img/benefit4.png) url(./img/benefit5.png) url(./img/benefit6.png) url(./img/benefit7.png);
+content: url(../img/benefit1.png) url(../img/benefit2.png) url(../img/benefit3.png) url(../img/benefit4.png) url(../img/benefit5.png) url(../img/benefit6.png) url(../img/benefit7.png);
 display: none;
 }
 .sticker {
