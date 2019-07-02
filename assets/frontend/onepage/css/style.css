@@ -632,7 +632,7 @@ a:hover {
   margin-bottom: 43px;
 }
 .ab-trio {
-  padding-top: 105px;
+  padding-top: 10px;
   position: relative;
 }
 .ab-trio img {
@@ -657,8 +657,8 @@ a:hover {
 }
 .ab-cirle-red {
   background: #e85425;
-  bottom: 70%;
-  left: 25%;
+  top: 3%;
+  left: 5%;
 }
 .ab-cirle-green {
   background: #94db40;
