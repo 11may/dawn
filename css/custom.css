@@ -12,7 +12,7 @@ display: none;
 	height: 63px;
 }
 .sticker-unique {
-	background: url(/img/unique.png) no-repeat;
+	background: url(../img/unique.png) no-repeat;
 	left: auto;
 	right: 0;
 }
