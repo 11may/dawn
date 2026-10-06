@@ -16,3 +16,70 @@ display: none;
 	left: auto;
 	right: 0;
 }
+
+/* ===== GEO 2026-10（R03 / R06 / R10 / R14 / R17 / R19）===== */
+
+/* R03 頁尾口號 h1 → p（重現 Bootstrap h1 + components.css 的外觀） */
+.pre-footer .footer-slogan { font-family: "Open Sans", sans-serif; font-weight: 300; font-size: 33px; line-height: 1.1; margin: 20px 0 10px; }
+
+/* R03 首頁 intro 區塊 */
+.intro-block { padding-top: 60px; }
+.intro-answer { max-width: 900px; margin: 0 auto 15px; font-size: 17px; line-height: 1.8; text-align: left; }
+.intro-links { margin-bottom: 10px; }
+.page-meta { color: #999; font-size: 13px; }
+
+/* R03 手風琴 h5→h3 後維持原外觀（style.css:826 只針對 h5） */
+.choose-us-block .panel-default h3.panel-title { font: 300 19px "Open Sans", Arial, sans-serif; padding: 0; margin: 0 0 5px; }
+
+/* R03 副標 h4 → p.section-lead（複製 style.css 的 .content h4 / .about-block h4 / .choose-us-block h4 / .testimonials-block h4） */
+.content p.section-lead { font: 300 18px "Open Sans", Arial, sans-serif; padding: 0; margin: 0; }
+.content p.section-lead strong { color: #e54a1a; font-weight: 300; }
+.about-block p.section-lead { margin-bottom: 43px; }
+.choose-us-block p.section-lead { margin-bottom: 35px; }
+.testimonials-block p.section-lead { margin-bottom: 57px; }
+.faq-block p.section-lead { margin-bottom: 30px; }
+@media (max-width: 991px) { .about-block p.section-lead { margin-bottom: 33px; } }
+
+/* R10 架構圖模組清單 */
+.arch-list { max-width: 960px; margin: 30px auto 0; }
+.arch-list dt { margin-top: 12px; font-weight: 600; }
+.arch-list dd { margin-left: 0; }
+
+/* R06 桌機頁首按鈕（主題在 ≤1024px 切漢堡選單，與 layout.js 的 1024 門檻一致） */
+.header-cta { float: right; margin: 12px 0 0 25px; }
+@media (max-width: 1024px) { .header-cta { display: none; } }
+
+/* R06 手機固定底欄（#e94d1c 為主題紅） */
+.cta-bar { display: none; position: fixed; left: 0; right: 0; bottom: 0; z-index: 1050; background: #292f34; box-shadow: 0 -2px 6px rgba(0,0,0,.25); padding-bottom: env(safe-area-inset-bottom); }
+.cta-bar a { flex: 1; text-align: center; color: #fff; padding: 12px 4px; font: 400 16px "PT Sans Narrow", Arial, sans-serif; border-right: 1px solid #3d454c; }
+.cta-bar a:last-child { border-right: 0; background: #e94d1c; }
+@media (max-width: 767px) { .cta-bar { display: flex; } body { padding-bottom: 48px; } .go2top { bottom: 60px; } }
+
+/* R06 Hero 按鈕白字（settings.css / red.css 的 .tp-caption a 會壓過 .btn-primary） */
+.tp-caption .btn, .tp-caption .btn:hover, .tp-caption .btn:focus { color: #fff; }
+
+/* R06 LINE 區塊 */
+.line-cta img { display: inline-block; margin: 10px 0; }
+
+/* R14 #contact 驗證條 */
+.trust-bar { margin-bottom: 25px; }
+.trust-bar li { margin-right: 18px; color: #b0b0b0; }
+
+/* R17 首頁 FAQ 預覽區 */
+.faq-block { padding-top: 60px; }
+.faq-block .col-md-6 { margin-bottom: 25px; }
+
+/* R19 子頁骨架 */
+.menu-always-on-top .page-block { padding-top: 100px; padding-bottom: 60px; }
+.page-block .page-body { text-align: left; }
+.page-block h2 { font-size: 26px; text-align: left; text-transform: none; margin-top: 35px; }
+.page-block h2:after { border-bottom-width: 1px; }
+.page-block h3 { margin-top: 20px; }
+.page-answer { font-size: 17px; line-height: 1.7; }
+.page-cta { background: #f6f6f6; padding: 20px; margin-top: 40px; }
+.page-related { margin-top: 30px; }
+.breadcrumb { background: transparent; padding-left: 0; font-size: 13px; }
+.pre-footer ul.site-links a { color: #b0b0b0; }
+
+/* R10 技術 logo 列標題 */
+.partners-title { color: #999; font-size: 13px; letter-spacing: 2px; text-transform: uppercase; margin: 0 0 15px; }
