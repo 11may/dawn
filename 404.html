@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>找不到頁面｜鷹鷹美直銷管理系統｜諾威網路服務有限公司</title>
+  <meta name="robots" content="noindex">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/global/plugins/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/assets/global/plugins/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/assets/global/css/components.css">
+  <link rel="stylesheet" href="/assets/frontend/onepage/css/style.css">
+  <link rel="stylesheet" href="/assets/frontend/onepage/css/themes/red.css">
+  <link rel="stylesheet" href="/css/custom.css?v=20261006">
+  <!-- Google Analytics 4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-07C7QNM327"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-07C7QNM327');
+    document.addEventListener('click', function (e) {
+      var a = e.target.closest('a'); if (!a) return;
+      var h = a.getAttribute('href') || '';
+      var n = h.indexOf('tel:') === 0 ? 'click_tel'
+        : h.indexOf('mailto:') === 0 ? 'click_mail'
+          : /line\.me|lin\.ee/.test(h) ? 'click_line'
+            : /wa\.me|whatsapp/.test(h) ? 'click_whatsapp'
+              : null;
+      if (n) gtag('event', n, {
+        link_url: h,
+        link_text: (a.textContent || '').trim().slice(0, 50),
+        section: (a.closest('[id]') || {}).id || '',
+        office: a.getAttribute('data-office') || ''
+      });
+    });
+  </script>
+</head>
+<body>
+  <div class="container content" style="padding:60px 15px;text-align:center">
+    <a href="/"><img src="/img/logo_11may.png" alt="鷹鷹美直銷管理系統 Logo"></a>
+    <h1 style="margin-top:30px">找不到這個頁面 <strong>404</strong></h1>
+    <p>頁面可能已移除或網址有誤。</p>
+    <p><a class="btn btn-primary" href="/">回到官網首頁</a></p>
+    <p><a href="/faq.html">常見問題</a>｜<a href="/compensation-plans.html">獎金制度</a>｜<a href="/about.html">關於我們</a>｜<a href="/#contact">聯絡我們</a></p>
+    <p>詢價專線：台北 <a href="tel:+886-2-2175-2941" data-office="taipei">02-2175-2941</a>｜台中 <a href="tel:+886-4-2328-0111" data-office="taichung">04-2328-0111</a>｜<a href="mailto:service@norway.com.tw">service@norway.com.tw</a></p>
+  </div>
+</body>
+</html>

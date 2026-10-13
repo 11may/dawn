@@ -1,0 +1,11 @@
+url: "https://norway.com.tw"
+exclude:
+  - README.md
+  - "*.old"
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

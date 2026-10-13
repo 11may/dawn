@@ -32,6 +32,7 @@ var Layout = function () {
     var handleNavItemCurrent = function () {
         $(".header-navigation").onePageNav({
             currentClass: "current",
+            filter: ":not(.external)",   // 新增：class="external" 的連結不交給一頁式導覽處理
             scrollThreshold: 0
         });
     }
@@ -119,6 +120,7 @@ var Layout = function () {
 
         function SlideUpMenu () {
             $(".header-navigation a").on("click", function(event) {
+                if ($(this).hasClass("external")) { return; }   // 新增：跨頁連結照常導向
                 if ($(window).width()<1024) {
                     event.preventDefault();//the default action of the event will not be triggered
                     $(".header-navigation").slideUp(100);
