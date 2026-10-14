@@ -1,6 +1,7 @@
 url: "https://norway.com.tw"
 exclude:
   - README.md
+  - "*.md"      # assets 內的廠商 README／CHANGELOG 不得輸出成網頁（避免垃圾頁與 GitHub API 依賴）
   - "*.old"
   - Gemfile
   - Gemfile.lock
